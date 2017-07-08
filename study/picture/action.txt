@@ -1,0 +1,3 @@
+  Actions action = new Actions(driver);
+action.click();// 鼠标左键在当前停留的位置做单击操作
+action.click(driver.findElement(By.name(element)))// 鼠标左键点击指定的元素

@@ -1,0 +1,5 @@
+ firefoxProfile = webdriver.FirefoxProfile()
+# 设置 useragent
+firefoxProfile.set_preference("general.useragent.override",
+                              sxconfig.mobileUserAgent)
+browser = webdriver.Firefox(firefox_profile=firefoxProfile, executable_path=sxconfig.geckodriverPath)
