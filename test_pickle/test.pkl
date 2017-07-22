@@ -1,0 +1,9 @@
+(dp0
+S'test2'
+p1
+I747
+sS'dhhd'
+p2
+S'\xe5\xbe\x88\xe5\xa5\xbd\xe7\x9a\x84'
+p3
+s.

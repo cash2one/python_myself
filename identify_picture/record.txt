@@ -1,0 +1,13 @@
+两种方式 图片识别
+都有一定的误差
+用   from pytesser import *    然后将识别的结果二次筛选 生成 提高正确率
+
+import pytesseract
+from pytesser import *
+
+
+code1 = image_to_string(img1)
+code2 = image_to_string(img2)
+
+# code1 = pytesseract.image_to_string(img1)
+# code2 = pytesseract.image_to_string(img2)
