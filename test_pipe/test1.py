@@ -10,6 +10,7 @@
 import multiprocessing
 import time
 
+
 def func(msg):
     for i in xrange(3):
         print msg
